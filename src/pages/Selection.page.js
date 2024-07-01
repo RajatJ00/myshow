@@ -43,10 +43,7 @@ const BookTicket = () => {
             description: "Movie Purchase",
             image: "https://i.pinimg.com/564x/be/03/da/be03dac8c62d1ed3680b0d86633cfd1c.jpg",
             handler: () => {
-
-
                 const posterURL = currentMovieDetail ? `https://image.tmdb.org/t/p/original${currentMovieDetail.poster_path}` : '';
-
                 const title = currentMovieDetail ? currentMovieDetail.title : "";
 
                 Swal.fire({
