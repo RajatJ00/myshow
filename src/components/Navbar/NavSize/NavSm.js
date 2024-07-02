@@ -1,7 +1,7 @@
 import Menu from "../../DropDown/menu.component";
 import { BiSearch } from "react-icons/bi";
 
-function NavSm () {
+function NavSm() {
     return (
         <>
             <div className="text-white flex items-center justify-between">

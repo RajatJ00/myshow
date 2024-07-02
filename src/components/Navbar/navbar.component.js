@@ -1,7 +1,7 @@
 import React from "react";
 import NavMd from "./NavSize/NavMd";
 import NavSm from "./NavSize/NavSm";
-import MovieNavLg from "./MovieNavSize/MovieNavLg";
+import NavLg from "./NavSize/NavLg";
 
 
 function Navbar () {
@@ -23,7 +23,7 @@ function Navbar () {
             <div className="hidden lg:flex">
                {
                   /*desktop Screen*/
-                  <MovieNavLg />
+                  <NavLg />
                }
             </div>
          </nav>

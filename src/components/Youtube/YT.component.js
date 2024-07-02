@@ -32,18 +32,17 @@ const YTMovie = () => {
     return(
         <div>{playing ?
                <>
-                  <div className="bg-red-600"><Youtube
+                  <div className="flex justify-center"><Youtube
                      videoId={trailer ? trailer.key : 'index'}
-                     className="w-screen h-screen bg-gray-100"
+                     className="w-[90%] bg-gray-100 shadow-[0_0_30px#000]"
                      opts={
                         {
                            width: '100%',
-                           height: '100%',
+                           height: '640',
                            playerVars: {
                               autoplay: 1,
-                              controls: 1,
+                              disablekb: 0,
                               cc_load_policy: 0,
-                              fs: 0,
                               iv_load_policy: 0,
                               modestbranding: 0,
                               rel: 0,

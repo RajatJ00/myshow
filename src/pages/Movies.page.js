@@ -40,11 +40,11 @@ const Movie = () => {
 
    return (
       <div>
-         <div className="relative flex w-full flex-col items-center bg-navCol-700 shadow-2xl shadow-black">
-            <div className="lg:w-3/4 lg:h-80 mobile:w-full mobile:h-10 md:h-52">
+         <div className="relative flex w-full flex-col items-center bg-navCol-700 shadow-2xl shadow-black mt-[-10%]">
+            <div className="lg:h-96 mobile:w-ful mobile:h-10 md:h-52">
                <img className="w-full mobile:my-8 md:my-0 items-center flex  bg-gradient-to-t from-black" src={`https://image.tmdb.org/t/p/original${currentMovieDetail ? currentMovieDetail.backdrop_path : ""}`} alt="Movie Backdrop" />
             </div>
-            <div className=" items-center w-full flex relative bg-gradient-to-t from-black pb-2">
+            <div className="items-center w-full flex relative bg-gradient-to-t from-black pb-2">
 
                <div className=" md:w-40 lg:w-80 lg:ml-5 sm:w-10">
                   <div className="mobile:w-40 lg:w-full flex lg:p-2 mobile:p-2 ">
@@ -96,8 +96,8 @@ const Movie = () => {
           isdark={false}
         />
       </div> */}
-         <div className="font-bold lg:text-3xl text-black p-2 mobile:text-xl mt-10">Production companies</div>
-         <div className=" bg-white p-2">
+         <div className="font-bold lg:text-3xl text-black p-2 mobile:text-xl mt-10 ml-3">Production companies</div>
+         <div className="mx-3 bg-white p-2">
             <div className=" mb-16 flex flex-wrap">
                {
                   currentMovieDetail && currentMovieDetail.production_companies && currentMovieDetail.production_companies.map(company => (
@@ -114,7 +114,8 @@ const Movie = () => {
                   ))
                }
             </div>
-         </div></div>
+         </div>
+      </div>
    )
 }
 
