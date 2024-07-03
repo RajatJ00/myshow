@@ -1,12 +1,12 @@
 ## Overview
 
-This project is a web application that allows users to search for movie and TV details. The application is built using React.js, Tailwind CSS, TMDB API, NPM packages, and Razorpay. The interface is designed to be better than any other website, providing a seamless and intuitive user experience.
+This project is a web application that allows users to search for movie and TV details. The application uses React.js, Tailwind CSS, TMDB API, NPM packages, and Razorpay. The interface is designed to be better than any other website, providing a seamless and intuitive user experience.
 
 ## Features
 
 - **Search Functionality**: Users can search for movies and TV shows using keywords.
 - **Detailed Information**: Displays detailed information about movies and TV shows, including title, description, release date, ratings, and more.
-- **Responsive Design**: The application is fully responsive, ensuring a great experience on both desktop and mobile devices.
+- **Responsive Design**: The fully responsive application ensures a great experience on both desktop and mobile devices.
 - **Integration with TMDB API**: Fetches movie and TV show data from the TMDB API.
 - **Payment Integration**: Supports payments through Razorpay for premium features.
 
@@ -22,10 +22,6 @@ This project is a web application that allows users to search for movie and TV d
 
 1. Obtain an API key from [TMDB](https://www.themoviedb.org/documentation/api).
 2. Configure Razorpay with your credentials for payment integration.
-
-## License
-
-- This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ## Acknowledgements
 
