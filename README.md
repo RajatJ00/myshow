@@ -21,11 +21,7 @@ This project is a web application that allows users to search for movie and TV d
 ## Configuration
 
 1. Obtain an API key from [TMDB](https://www.themoviedb.org/documentation/api).
-2. Create a `.env` file in the root of the project and add your API key:
-    ```env
-    REACT_APP_TMDB_API_KEY=your_api_key_here
-    ```
-3. Configure Razorpay with your credentials for payment integration.
+2. Configure Razorpay with your credentials for payment integration.
 
 ## License
 
